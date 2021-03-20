@@ -26,12 +26,10 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="title-container">
-                <h1></h1>
+            <div className="title-container">                
                 <h2>Transport luxury</h2>
             </div>
-        </div>
-    );
+        </div>   );
 };
 
 export default Header;
