@@ -4,11 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import './Book.css'
 import logo from '../../images/images/4 Search.png';
 
-
-
-
-const Book = () => {
-   
+const Book = () => {   
     const {vehicleType} = useParams();
     return (
         <div style={{textAlign: 'center'}}>

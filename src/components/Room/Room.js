@@ -61,15 +61,9 @@ export default function Room({room}){
         title="Paella dish"
       />
       <img src={`/images/${room.vehicleType}.png`} alt=""/>
-      {/* <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
-          {room.description}
-        </Typography>
-      </CardContent> */}
+      
       <CardActions disableSpacing>
-        {/* <IconButton aria-label="add to favorites">
-          <LocalHotelIcon />: {room.vehicle} 
-        </IconButton> */}
+        
         <IconButton aria-label="share">
           <WcIcon />: {room.capacity} 
         </IconButton>

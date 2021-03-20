@@ -10,7 +10,7 @@ const Header = () => {
             <nav className="nav">
                 <ul>
                     <li>
-                        <img className="logo" src={logo} alt=""/>
+                        <img className="logo" src={logo} alt="" />
                     </li>
                     <li>
                         <Link to="/home">Home</Link>
@@ -26,10 +26,11 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="title-container">                
+            <div className="title-container">
                 <h2>Transport luxury</h2>
             </div>
-        </div>   );
+        </div>
+    );
 };
 
 export default Header;
