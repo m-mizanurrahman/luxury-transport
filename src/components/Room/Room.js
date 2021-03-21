@@ -40,7 +40,7 @@ export default function Room({room}){
   const classes = useStyles();
   const history = useHistory()
     const handleBook = (vehicleType) => {
-        history.push(`/book/${vehicleType}`);
+      history.push(`/book/${vehicleType}`);
     }
   return (
     <Grid >

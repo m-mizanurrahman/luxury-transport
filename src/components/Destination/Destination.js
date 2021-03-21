@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from '../../images/images/Map.png';
+import logo from '../../images/images/5 Search result.png';
 // import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 
 const Destination = () => {
+
     return (
         <div>
-            {/* <Map google={this.props.google} zoom={14}>
-
-                <Marker onClick={this.onMarkerClick}
-                    name={'Current location'} />
-
-                <InfoWindow onClose={this.onInfoWindowClose}>
-                    
-                </InfoWindow>
-            </Map> */}
+            <h1>Let's go</h1>
             <img src={logo} alt="Search Result" />
         </div>
     );
+
+
 };
 
 export default Destination;

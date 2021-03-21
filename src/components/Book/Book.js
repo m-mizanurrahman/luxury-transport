@@ -5,10 +5,11 @@ import './Book.css'
 import logo from '../../images/images/Map.png';
 
 const Book = () => {   
-    const {vehicleType} = useParams();
+    const { vehicleType, imgUrl } = useParams();
     return (
         <div style={{textAlign: 'center'}}>
             <h1>Let's book a {vehicleType} to go</h1>
+            <img src={imgUrl} alt={vehicleType}/>
             <form action="">
                 <input placeholder="From" type="text" name="" id=""/><br/>
                 <input placeholder="To" type="text" name="" id=""/><br/>
